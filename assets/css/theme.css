@@ -277,15 +277,15 @@ section:first-of-type {
 
 /* If Width Smaller or Equal to 768px */
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
     .logo img {
         width: 100%;
     }
-}
+}*/
 
-a.logo:hover {
+/*a.logo:hover {
     color: #ffdf5e;
-}
+}*/
 
 
 /* If Width Larger than 428px */
