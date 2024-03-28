@@ -816,6 +816,9 @@ ul.details li:last-child {
     .copyright {
         text-align: left;
     }
+    .copyright span {
+        display: inline-block;
+    }
 }
 
 
@@ -825,6 +828,9 @@ ul.details li:last-child {
     .copyright {
         margin: 0 0 2.2rem 0;
         text-align: center;
+    }
+    .copyright span {
+        display: block;
     }
 }
 
