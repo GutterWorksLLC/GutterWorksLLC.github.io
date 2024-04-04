@@ -48,15 +48,32 @@ a:focus {
     color: #ffdf5e;
 }
 
-a.appointment {
-    color: #1e1bc2
+.call {
+    font-size: 2.4rem;
+    line-height: 2;
+    color: #f04d00;
 }
 
-a.appointment:hover,
-a.appointment:active,
-a.appointment:focus {
+.appointment {
+    font-size: 2.4rem;
+    line-height: 1.3;
+    color: #1e1bc2;
+}
+
+/* If Width Smaller or Equal to 600px */
+@media only screen and (max-width: 600px) {
+    .appointment {
+        font-size: 2.2rem;
+    }
+}
+
+.appointment:hover,
+.appointment:active,
+.appointment:focus {
     color: #ffdf5e;
 }
+
+
 
 h1,
 h2,
