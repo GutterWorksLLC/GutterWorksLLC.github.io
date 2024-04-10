@@ -590,7 +590,6 @@ ul.discounts li {
     .mission-statement img {
         max-width: 100%;
         height: auto;
-        font-size
     }
 }
 
@@ -1210,4 +1209,15 @@ img.clippy {
 .resp-sharing-button--reddit:active {
     background-color: #3a80c1;
     border-color: #3a80c1;
+}
+
+.resp-sharing-button--telegram {
+    background-color: #54A9EB;
+    border-color: #54A9EB;
+}
+
+.resp-sharing-button--telegram:hover,
+.resp-sharing-button--telegram:active {
+    background-color: #4B97D1;
+    border-color: #4B97D1;
 }
