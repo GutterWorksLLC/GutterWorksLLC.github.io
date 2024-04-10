@@ -86,12 +86,12 @@ h6 {
 
 h1 {
     font-size: 2.8rem;
-    margin-bottom: 1.6rem;
+    margin-bottom: 1.8rem;
 }
 
 h2 {
     font-size: 2.4rem;
-    margin-bottom: 1.4rem;
+    margin-bottom: 1.6rem;
 }
 
 h3 {
@@ -166,7 +166,7 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     .featured-3 {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -177,7 +177,7 @@ h6 {
 
 @media only screen and (min-width: 601px) {
     .featured-4 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 }
 
@@ -186,7 +186,7 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     .featured-4 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -206,7 +206,7 @@ h6 {
 
 @media only screen and (max-width: 600px) {
     .featured-5 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
@@ -247,9 +247,9 @@ section:last-of-type {
     margin-bottom: 3rem;
 }
 
-section:first-of-type {
-    margin-bottom: 2.5rem;
-}
+.home section:first-of-type {
+    margin-bottom: 2rem;
+  }
 
 .section {
     box-sizing: border-box;
@@ -283,8 +283,8 @@ section:first-of-type {
 
 .logo {
     font-size: 2.8rem;
-    color: #9a53fc;
-    padding: 1.8rem 0 1.8rem 0;
+    color: #1e1bc2;
+    padding: 1.6rem 0 1.6rem 0;
 }
 
 .logo img {
@@ -392,12 +392,12 @@ section:first-of-type {
 /* Nav Link */
 
 .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 1.4rem !important;
+    padding-right: 1.6rem !important;
     /*bootstrap override*/
-    padding-left: 1.4rem !important;
+    padding-left: 1.6rem !important;
     /*bootstrap override*/
-    padding-top: 0.6rem;
-    padding-bottom: 0.95rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.65rem;
 }
 
 .nav-link {
@@ -534,8 +534,13 @@ ul.discounts li {
 }
 
 .lSSlideOuter .lSPager.lSpg>li.active a,
+.lSSlideOuter .lSPager.lSpg>li a {
+    background-color: #fff !important;
+}
+
+.lSSlideOuter .lSPager.lSpg>li.active a,
 .lSSlideOuter .lSPager.lSpg>li:hover a {
-    background-color: #9a53fc !important;
+    background-color: #1e1bc2 !important;
 }
 
 
